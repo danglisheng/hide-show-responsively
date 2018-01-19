@@ -1,0 +1,35 @@
+img {
+  display:block;
+  width:100%;
+  margin-bottom:2%;
+}
+img:nth-child(even) {
+  display:none;
+}
+@media only screen and (min-width:25em) {
+  img {
+    display: inline-block;
+    width:48%;
+    margin-right:1%;
+  }
+  img:nth-child(even) {
+  display:inline-block;
+}
+}
+@media only screen and (min-width:38em) {
+  img {
+    width:31%;
+  }
+  img:first-child {
+    display:none;
+  }
+}
+@media only screen and (min-width:60em) {
+  img {
+    width:24%;
+    margin-right:0.5%;
+  }
+  img:first-child {
+    display:inline-block;
+  }
+}
