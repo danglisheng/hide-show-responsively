@@ -27,10 +27,16 @@ img:nth-child(even) {
 }
 @media only screen and (min-width:60em) {
   img {
-    width:24.8%;
-    margin-right:0.2%;
+    width:24.5%;
+    margin-right:0.5%;
   }
   img:first-child {
     display:block;
+  }
+}
+@media only screen and (min-width:90em) {
+  img {
+    width:24.75%;
+    margin-right: 0.25%;
   }
 }
