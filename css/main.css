@@ -9,8 +9,8 @@ img:nth-child(even) {
 @media only screen and (min-width:25em) {
   img {
     float:left;
-    width:49%;
-    margin-right:1%;
+    width:calc((100% - 6px)/2);
+    margin-right:3px;
   }
   img:nth-child(even) {
   display:block;
@@ -18,25 +18,29 @@ img:nth-child(even) {
 }
 @media only screen and (min-width:38em) {
   img {
-    width:32.3%;
-    margin-right:1%;
+    width:calc((100% - 9px)/3);
+    
   }
   img:first-child {
     display:none;
   }
 }
 @media only screen and (min-width:60em) {
+  body{
+    margin-left:18px;
+    margin-right: 18px;
+  }
   img {
-    width:24.5%;
-    margin-right:0.5%;
+    width:calc((100% - 16px)/4);
+    margin-right:4px;
   }
   img:first-child {
     display:block;
   }
 }
-@media only screen and (min-width:90em) {
-  img {
-    width:24.75%;
-    margin-right: 0.25%;
-  }
+@media only screen and (min-width:90em){
+  body{
+      margin-left:30px;
+      margin-right: 30px;
+   }
 }
